@@ -1,0 +1,18 @@
+.box-title {
+    padding-bottom: 80px;
+    text-align: center;
+
+    &__name {
+
+        padding-bottom: 40px;
+        @include title-base;
+        font-size: $font-title-size;
+        color: $color-title;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin: 0 auto;
+        width: 450px;
+    }
+}

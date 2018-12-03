@@ -1,0 +1,26 @@
+// Socials
+.socials {
+    display: flex;
+    justify-content: center;
+
+    &__item {
+        list-style: none;
+
+        :hover {
+            opacity: 0.9;
+        }
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &__item a {
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 25px;
+        color: #0e76a8;
+    }
+
+    
+}

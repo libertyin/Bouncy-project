@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: $color-white;
+
+    &__logo {
+        padding-bottom: 20px;
+    }
+
+    &__copyright {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+}

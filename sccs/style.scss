@@ -1,0 +1,28 @@
+//variables
+@import "variables";
+
+//mixins
+@import "mixins";
+
+//common
+@import "common/main";
+@import "common/layout";
+
+//elements
+@import "elements/btn-link";
+@import "elements/skroll-down";
+@import "elements/nav";
+@import "elements/map";
+@import "elements/socials";
+@import "elements/box-title";
+@import "elements/dots";
+
+
+// parts
+@import "parts/header";
+@import "parts/portfolio";
+@import "parts/team";
+@import "parts/loves";
+@import "parts/testimonials";
+@import "parts/contact";
+@import "parts/footer";

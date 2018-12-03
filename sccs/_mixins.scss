@@ -1,0 +1,19 @@
+// mixins
+
+@mixin title-base {
+    font-family: $font-source-sans; 
+    font-weight: 300;
+    font-size: $font-title-size;
+    letter-spacing: 0.2em;
+    line-height: 6px;
+    color: $color-title;
+}
+
+@mixin text-base {
+    font-family: $font-open-sans; 
+    font-weight: 400;
+    font-size: $font-base;
+    letter-spacing: 0.05em;
+    line-height: 25px;
+    color: $color-text-base;
+}

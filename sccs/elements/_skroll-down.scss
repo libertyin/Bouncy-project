@@ -1,0 +1,28 @@
+//Skroll down btn
+ .skroll-down {
+    background-color: $color-green;
+    margin: 0 auto;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+
+    &__link {
+    display: block;
+    color: $color-white;
+    text-align: center;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+    } 
+
+    &__icon {
+        display: block;
+        padding-top: 11px;
+    }
+
+    &:hover {
+       
+        background-color: $color-green-hover;
+    }
+}
+

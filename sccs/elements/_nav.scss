@@ -1,0 +1,41 @@
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo a {
+        text-decoration: none;
+        fill: $color-white;
+    }
+
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__list-item {
+        border: 1px solid transparent;
+
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
+
+        &.active,
+        &:hover {
+        border: 1px solid $color-white;
+        border-radius: 20px;
+    }
+
+    }
+
+    &__list-item a {
+        display: block;
+        padding: 7px 10px;
+        text-decoration: none;
+        color: $color-white;
+        font-size: $font-middle-size;
+    }
+
+   
+}

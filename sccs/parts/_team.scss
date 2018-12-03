@@ -1,0 +1,40 @@
+// Team
+.team {
+    padding: $box-padding;
+    background-color: $color-white;
+
+    &__container {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-bottom: 60px;
+    }
+
+    &__text {
+        text-align: right;
+        width: 42%;
+    }
+
+    &__title h3 {
+        display: block;
+        padding-bottom: 15px;
+        @include title-base;
+        font-weight: 400;
+        letter-spacing: 0.04em;
+        color: $color-dark-grey;
+    }
+
+    &__title span {
+        display: block;
+        padding-bottom: 30px;
+        font-weight: 300i;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+    &__description {
+
+    }
+}

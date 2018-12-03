@@ -1,0 +1,14 @@
+// Loves
+.loves {
+    background: url(../img/love-background.jpg) center no-repeat / cover;
+    padding: 55px 0px;
+    text-align: center;
+
+    &__title {
+        padding-bottom: 30px;
+        font-size: $font-title-size;
+        font-weight: 300;
+        color: $color-white;
+
+    }
+}

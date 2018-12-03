@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEBH-GPmjEjPhwpwWgHSnUDjmGOpN08Qg&callback=initMap"></script>
+    <script src="js/style.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="sccs/style.css">
+    <title>Bouncy</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header" id="header">
+
+        <div class="grid">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="111.813" height="18.75" viewBox="0 0 111.813 18.75">
+                            <path id="Bouncy" class="cls-1" d="M102.823,61.951V58.7h3.3a1.654,1.654,0,0,1,1.624,1.625,1.621,1.621,0,0,1-1.624,1.625h-3.3Zm0-7.373V51.328H105.2a1.625,1.625,0,0,1,0,3.249h-2.375ZM107.147,66a5.47,5.47,0,0,0,3.374-9.8,5.491,5.491,0,0,0,1.2-3.374,5.656,5.656,0,0,0-5.548-5.574H97.9V66h9.248Zm8.077-9.348a9.361,9.361,0,1,0,9.348-9.4A9.333,9.333,0,0,0,115.224,56.652Zm13.822-.025a4.462,4.462,0,1,1-4.474-4.474A4.485,4.485,0,0,1,129.046,56.627ZM141.8,47.254h-4.949V58.6a7.4,7.4,0,0,0,14.8,0V47.254H146.7V58.527a2.45,2.45,0,0,1-4.9,0V47.254ZM171.2,66V47.254h-4.924V56.1L157.4,47.254h-2V66h4.924V57.127L169.171,66H171.2Zm18.05-16.021a9.271,9.271,0,0,0-6.6-2.724A9.373,9.373,0,1,0,189.3,63.225l-3.5-3.449a4.422,4.422,0,1,1-3.149-7.548,4.375,4.375,0,0,1,3.149,1.225Zm20.475-2.724h-5.673L200.422,53.5l-3.6-6.249H191.15L198,59.1V66h4.874V59.1Z"
+                                transform="translate(-97.906 -47.25)" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__list-item js-nav-item"><a href="#header">Hello</a></li>
+                        <li class="nav__list-item js-nav-item"><a href="#portfolio">Portfolio</a></li>
+                        <li class="nav__list-item js-nav-item"><a href="#team">Team</a></li>
+                        <li class="nav__list-item js-nav-item"><a href="#contact">Contact</a></li>
+                    </ul>
+            </nav>
+
+        </div>
+
+        <div class="header__title">
+            <h1>We Are Code Cafe</h1>
+            <h3>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                <br> praesenium voluptatum</h3>
+        </div>
+
+        <div class="skroll-down">
+            <a class="skroll-down__link" href="#portfolio">
+                <i class="fas skroll-down__icon fa-angle-down"></i>
+            </a>
+        </div>
+
+    </div>
+    <!-- End Header -->
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="grid">
+
+            <div class="box-title">
+                <h2 class="box-title__name">The portfolio</h2>
+                <p class="box-title__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium</p>
+            </div>
+
+            <div class="portfolio__btns">
+
+                <button data-filter="*" href="#" class="portfolio__btn js-btn">All Works</button>
+                <button data-filter=".print" href="#" class="portfolio__btn js-btn">Print</button>
+                <button data-filter=".branding" href="#" class="portfolio__btn js-btn">Branding</button>
+                <button data-filter=".web" href="#" class="portfolio__btn js-btn">Web</button>
+                <button data-filter=".html" href="#" class="portfolio__btn js-btn">HTML</button>
+
+            </div>
+
+            <div class="portfolio__grid">
+                <div class="portfolio__grid-item print"><img src="img/portfolio-items/portfolio-item-1.jpg" alt=""></div>
+                <div class="portfolio__grid-item print"><img src="img/portfolio-items/portfolio-item-2.jpg" alt=""></div>
+                <div class="portfolio__grid-item branding"><img src="img/portfolio-items/portfolio-item-3.jpg" alt=""></div>
+                <div class="portfolio__grid-item branding"><img src="img/portfolio-items/portfolio-item-4.jpg" alt=""></div>
+                <div class="portfolio__grid-item branding"><img src="img/portfolio-items/portfolio-item-6.jpg" alt=""></div>
+                <div class="portfolio__grid-item branding"><img src="img/portfolio-items/portfolio-item-7.jpg" alt=""></div>
+                <div class="portfolio__grid-item branding"><img src="img/portfolio-items/portfolio-item-5.jpg" alt=""></div>
+                <div class="portfolio__grid-item web"><img src="img/portfolio-items/portfolio-item-8.jpg" alt=""></div>
+                <div class="portfolio__grid-item html"><img src="img/portfolio-items/portfolio-item-10.jpg" alt=""></div>
+                <div class="portfolio__grid-item html"><img src="img/portfolio-items/portfolio-item-12.jpg" alt=""></div>
+                <div class="portfolio__grid-item html"><img src="img/portfolio-items/portfolio-item-11.jpg" alt=""></div>
+                <div class="portfolio__grid-item html"><img src="img/portfolio-items/portfolio-item-9.jpg" alt=""></div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End Portfolio -->
+
+    <!-- Team -->
+    <section class="team" id="team">
+        <div class="grid">
+            <div class="box-title">
+                <h2 class="box-title__name">The team</h2>
+                <p class="box-title__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium</p>
+            </div>
+            <div class="js-team-slider-items">
+                <div class="team__container">
+                    <div class="team__img">
+                        <img src="img/team-member.jpg" alt="team-member">
+                    </div>
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h3>Abdullah Noman</h3>
+                            <span>Creative Director, Code Cafe</span>
+
+                        </div>
+                        <p class="team__description">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At
+                            vero
+                            eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos
+                            et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                        </p>
+                    </div>
+                </div>
+                <div class="team__container">
+                    <div class="team__img">
+                        <img src="img/team-member.jpg" alt="team-member">
+                    </div>
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h3>Abdullah Noman</h3>
+                            <span>Creative Director, Code Cafe</span>
+
+                        </div>
+                        <p class="team__description">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At
+                            vero
+                            eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos
+                            et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                        </p>
+                    </div>
+                </div>
+                <div class="team__container">
+                    <div class="team__img">
+                        <img src="img/team-member.jpg" alt="team-member">
+                    </div>
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h3>Abdullah Noman</h3>
+                            <span>Creative Director, Code Cafe</span>
+
+                        </div>
+                        <p class="team__description">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At
+                            vero
+                            eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos
+                            et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et
+                            accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team -->
+
+    <!-- Loves -->
+    <section class="loves">
+        <div class="grid">
+            <h2 class="loves__title">Already Loved Us? Let’s talk!</h2>
+            <a href="" class="btn-link">Contact Us</a>
+        </div>
+    </section>
+    <!-- End Loves -->
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="grid">
+            <div class="box-title">
+                <h2 class="box-title__name">testimonials</h2>
+                <p class="box-title__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium</p>
+            </div>
+
+            <div class="testimonials__container">
+
+                <div class="js-testimonials__slider-items">
+
+                <div class="testimonials__slider">
+                      <div class="testimonials__img">
+                          <img src="img/comment-member.png" alt="">
+                     </div>
+
+                     <div class="testimonials__text">
+                        <p class="testimonials__description">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                            provident, similique sunt in culpa qui officia deserunt mollitia.
+                        </p>
+                        <span class="testimonials__city">
+                            Partho
+                        </span>
+                        <span class="testimonials__position">
+                            FOUNDER, ARTWAYS BD
+                        </span>
+                     </div>
+                </div>
+
+                <div class="testimonials__slider">
+
+                        <div class="testimonials__img">
+                        <img src="img/comment-member.png" alt="">
+                         </div>
+    
+                         <div class="testimonials__text">
+                            <p class="testimonials__description">
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                                deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                                provident, similique sunt in culpa qui officia deserunt mollitia.
+                            </p>
+                            <span class="testimonials__city">
+                                Partho
+                            </span>
+                            <span class="testimonials__position">
+                                FOUNDER, ARTWAYS BD
+                            </span>
+                         </div>
+                </div>
+
+                <div class="testimonials__slider">
+
+                            <div class="testimonials__img">
+                            <img src="img/comment-member.png" alt="">
+                             </div>
+        
+                             <div class="testimonials__text">
+                                <p class="testimonials__description">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                                    provident, similique sunt in culpa qui officia deserunt mollitia.
+                                </p>
+                                <span class="testimonials__city">
+                                    Partho
+                                </span>
+                                <span class="testimonials__position">
+                                    FOUNDER, ARTWAYS BD
+                                </span>
+                             </div>
+                </div>
+
+                </div>
+        
+        
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+    <div class="grid">
+        <div class="box-title">
+        <h2 class="box-title__name">Contact us</h2>
+        <p class="box-title__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+            praesentium</p>
+    </div>
+     </div>
+    <div class="map" id="map"></div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="grid">
+            <div class="footer__logo">
+                <a href="#">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="111.813" height="18.75" viewBox="0 0 111.813 18.75">
+                        <path id="Bouncy" class="cls-1" d="M102.823,61.951V58.7h3.3a1.654,1.654,0,0,1,1.624,1.625,1.621,1.621,0,0,1-1.624,1.625h-3.3Zm0-7.373V51.328H105.2a1.625,1.625,0,0,1,0,3.249h-2.375ZM107.147,66a5.47,5.47,0,0,0,3.374-9.8,5.491,5.491,0,0,0,1.2-3.374,5.656,5.656,0,0,0-5.548-5.574H97.9V66h9.248Zm8.077-9.348a9.361,9.361,0,1,0,9.348-9.4A9.333,9.333,0,0,0,115.224,56.652Zm13.822-.025a4.462,4.462,0,1,1-4.474-4.474A4.485,4.485,0,0,1,129.046,56.627ZM141.8,47.254h-4.949V58.6a7.4,7.4,0,0,0,14.8,0V47.254H146.7V58.527a2.45,2.45,0,0,1-4.9,0V47.254ZM171.2,66V47.254h-4.924V56.1L157.4,47.254h-2V66h4.924V57.127L169.171,66H171.2Zm18.05-16.021a9.271,9.271,0,0,0-6.6-2.724A9.373,9.373,0,1,0,189.3,63.225l-3.5-3.449a4.422,4.422,0,1,1-3.149-7.548,4.375,4.375,0,0,1,3.149,1.225Zm20.475-2.724h-5.673L200.422,53.5l-3.6-6.249H191.15L198,59.1V66h4.874V59.1Z"
+                            transform="translate(-97.906 -47.25)" />
+                    </svg>
+                </a>
+                </div>
+
+            <span class="footer__copyright">Copyright 2015. All rights Reserved</span>
+
+        <ul class="socials">
+            <li class="socials__item"><a><i class="fab fa-facebook"></i></a></li>
+            <li class="socials__item"><a><i class="fab fa-twitter-square"></i></a></li>
+            <li class="socials__item"><a><i class="fab fa-linkedin"></i></a></li>
+            <li class="socials__item"><a><i class="fab fa-instagram"></i></a></li>
+            <li class="socials__item"><a><i class="fab fa-vimeo-square"></i></a></li>
+        </ul>
+
+    </div>
+    </section>
+    <!-- End Footer -->
+
+
+</body>
+
+</html>

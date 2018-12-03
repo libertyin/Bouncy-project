@@ -1,0 +1,40 @@
+.testimonials {
+    padding: $box-padding;
+    background-color: $color-portfolio;
+
+    &__container {
+        padding: 60px 135px 90px;
+        background-color: $color-white;
+    }
+
+    &__slider {
+        display: flex !important; 
+    }
+
+    &__img {
+        padding-right: 65px;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        padding-bottom: 30px;
+    }
+
+    &__city {
+        display: block;
+        text-transform: uppercase;
+        color: $color-green
+    }
+
+    &__position {
+        display: block;
+        text-transform: uppercase;
+        color: $color-dark-grey;
+    }
+
+
+
+}
